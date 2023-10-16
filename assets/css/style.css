@@ -1,0 +1,137 @@
+@import url('./root.css');
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI/Segoe\ UI.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+}
+
+.ff-segeoiUI {
+    font-family: 'Segoe UI';
+}
+
+/* .hero-sec-bg {
+    background-image: url('../images/hero-bg-img.png'), url("../images/hero-bg-img2.png");
+    background-position: left, right;
+    background-repeat: no-repeat, no-repeat;
+
+
+} */
+/* microsoft startup section */
+.startup-container {
+    max-width: 800px !important;
+}
+
+.mxw-683 {
+    max-width: 683px;
+}
+
+.lh-148 {
+    line-height: 148%;
+}
+
+/* whats new section */
+.whatsNew-container {
+    max-width: 1624px !important;
+}
+
+.bottom-line {
+    border-bottom: 1px solid #000;
+}
+
+.position-plus {
+    position: absolute;
+    right: 0;
+    bottom: 2%;
+}
+
+/* founer hub section */
+.founder-container {
+    max-width: 915px !important;
+}
+
+.founder-btn {
+    border: none;
+    border-radius: 5px;
+    padding: 14px 42px;
+}
+
+/* beneits section */
+.beneits-container {
+    max-width: 1580px !important;
+}
+
+.mxw-828 {
+    max-width: 828px;
+}
+
+.beneits-card {
+    max-width: 253px;
+    filter: drop-shadow(0px 3.076772689819336px 7.69193172454834px rgba(0, 0, 0, 0.25));
+    background-color: var(--light-white);
+    padding: 69px 35px;
+    height: 100%;
+}
+
+.benefits-btn {
+    padding: 33px 41px;
+    border-radius: 5px;
+    border: none;
+}
+
+.benefits-btn2 {
+    padding: 33px 41px;
+    border-radius: 5px;
+    border: none;
+}
+
+.benefits-btn3 {
+    padding: 33px 41px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* technplogy section */
+.technology-container {
+    max-width: 1565px !important;
+}
+
+.technology-card {
+    max-width: 492px;
+    border: 3px solid var(--purple-2);
+    border-radius: 5px;
+    height: 100%;
+}
+
+.mxw-390 {
+    max-width: 390px;
+}
+
+.mxw-442 {
+    max-width: 442px;
+}
+
+/* partnership section */
+.mxw-925 {
+    max-width: 925px;
+}
+
+.partnership-card {
+    max-width: 492px;
+    border: 3px solid var(--light-white);
+    border-radius: 5px;
+    padding: 52px;
+    height: 100%;
+    padding-bottom: 14px;
+}
+
+/* footer */
+.lh-139 {
+    line-height: 139%;
+}
