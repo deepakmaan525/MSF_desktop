@@ -16,13 +16,35 @@
     font-family: 'Segoe UI';
 }
 
-/* .hero-sec-bg {
-    background-image: url('../images/hero-bg-img.png'), url("../images/hero-bg-img2.png");
-    background-position: left, right;
-    background-repeat: no-repeat, no-repeat;
+/* hero-section */
+.bg-heroSection-img {
+    background-image: url("../images/hero-bg-img.png");
+    background-repeat: no-repeat;
+}
 
+.heroSec-card {
+    max-width: 710px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: rgba(134, 97, 197, 0.7);
+    box-shadow: 3.7270500659942627px 3.7270500659942627px 16.771724700927734px 0px #000000B2;
+}
 
-} */
+.heroSec-btn {
+    padding: 14px 42px;
+    border-radius: 5px;
+    border: none;
+    max-width: 187px;
+}
+
+.hero-container {
+    max-width: 1670px !important;
+}
+
+.min-vh-75 {
+    min-height: 75vh;
+}
+
 /* microsoft startup section */
 .startup-container {
     max-width: 800px !important;
@@ -75,7 +97,7 @@
     max-width: 253px;
     filter: drop-shadow(0px 3.076772689819336px 7.69193172454834px rgba(0, 0, 0, 0.25));
     background-color: var(--light-white);
-    padding: 69px 35px;
+    padding: 38px 35px;
     height: 100%;
 }
 
@@ -147,7 +169,7 @@
     max-width: 492px;
     border: 3px solid var(--light-white);
     border-radius: 5px;
-    padding: 52px;
+    padding: 15px;
     height: 100%;
     padding-bottom: 14px;
 }
@@ -182,6 +204,34 @@
         position: absolute;
         left: 12%;
         bottom: 0%;
+    }
+
+    .heroSec-card {
+        min-width: 512px;
+        max-width: 710px;
+        height: 435px;
+        border-radius: 5px;
+        background-color: rgba(134, 97, 197, 0.7);
+        box-shadow: 3.7270500659942627px 3.7270500659942627px 16.771724700927734px 0px #000000B2;
+    }
+
+    .beneits-card {
+        padding: 69px 35px;
+    }
+
+    .partnership-card {
+        padding: 52px;
+    }
+}
+
+@media (min-width:768px) {
+    .heroSec-card {
+        min-width: 700px;
+        max-width: 710px;
+        height: 630px;
+        border-radius: 5px;
+        background-color: rgba(134, 97, 197, 0.7);
+        box-shadow: 3.7270500659942627px 3.7270500659942627px 16.771724700927734px 0px #000000B2;
     }
 }
 

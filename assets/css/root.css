@@ -4,7 +4,8 @@
     --fs-md: 22px;
     --fs-lg: 22.5px;
     --fs-xl: 35.16px;
-    --fs-xxl: 76.04px;
+    --fs-xxl: 35.04px;
+
 
     /* color */
 
@@ -71,4 +72,27 @@
 
 .bg-grey {
     background-color: var(--grey);
+}
+
+/* media screens */
+@media (min-width:576px) {
+    :root {
+        /* font-size */
+        --fs-sm: 18px;
+        --fs-md: 22px;
+        --fs-lg: 22.5px;
+        --fs-xl: 35.16px;
+        --fs-xxl: 61.04px;
+    }
+}
+
+@media (min-width:768px) {
+    :root {
+        /* font-size */
+        --fs-sm: 18px;
+        --fs-md: 22px;
+        --fs-lg: 22.5px;
+        --fs-xl: 35.16px;
+        --fs-xxl: 76.04px;
+    }
 }
