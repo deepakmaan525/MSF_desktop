@@ -66,6 +66,10 @@
     color: var(--blue);
 }
 
+.bg-light-white {
+    background-color: var(--light-white);
+}
+
 .bg-purple {
     background-color: var(--purple);
 }

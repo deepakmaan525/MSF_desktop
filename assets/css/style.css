@@ -84,6 +84,15 @@
     padding: 14px 42px;
 }
 
+/* startup section */
+.startup-container {
+    max-width: 1400px;
+}
+
+.startup-bg-img {
+    background-image: url("../images/startup-section-img.png");
+}
+
 /* beneits section */
 .beneits-container {
     max-width: 1580px !important;
@@ -225,6 +234,17 @@
 }
 
 @media (min-width:768px) {
+    .heroSec-card {
+        min-width: 613px;
+        max-width: 710px;
+        /* height: 500px; */
+        border-radius: 5px;
+        background-color: rgba(134, 97, 197, 0.7);
+        box-shadow: 3.7270500659942627px 3.7270500659942627px 16.771724700927734px 0px #000000B2;
+    }
+}
+
+@media (min-width:992px) {
     .heroSec-card {
         min-width: 700px;
         max-width: 710px;
