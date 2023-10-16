@@ -131,7 +131,43 @@
     padding-bottom: 14px;
 }
 
+.mxw-190 {
+    max-width: 190px;
+}
+
 /* footer */
 .lh-139 {
     line-height: 139%;
+}
+
+.position-icons {
+    position: absolute;
+    left: 3%;
+    bottom: 0%;
+}
+
+.social-icons {
+    transition: .4s;
+}
+
+.social-icons:hover {
+    transform: translateY(-5px);
+}
+
+
+/* media screens  */
+@media (min-width:576px) {
+    .position-icons {
+        position: absolute;
+        left: 12%;
+        bottom: 0%;
+    }
+}
+
+@media (min-width:1200px) {
+    .position-icons {
+        position: absolute;
+        left: 82%;
+        bottom: 30%;
+    }
 }
